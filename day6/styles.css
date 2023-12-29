@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+   align-items :center;
+   justify-content: center;
+
+}
+.container{
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    border:1px solid black;
+    padding:25px;
+    border-radius:10px;
+    box-shadow: 0 5px black;
+
+}
+
+
+button{
+    font-weight: 800;
+    font-style:bold;
+    font-size:20px;
+    padding:10px 15px;
+    border-radius:2px;
+}
+span{
+    border:1px solid black;
+    font-size:25px;
+    padding:12px;
+}

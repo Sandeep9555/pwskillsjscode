@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-DOM part2</title>
+</head>
+<body>
+    <h1 class="pwskills"></h1>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <script>
+    
+        //append child
+        let title=document.createElement("h1");
+        title.className="pwskills";
+        title.style.fontSize="25px";
+        title.textContent="Pw Skills,Namaste";
+        console.log(title);
+        document.body.append(title);
+        //remove child
+        let ul=document.querySelector("ul");
+        console.log("ul");
+        let lists=document.querySelectorAll("li");
+        console.log("lists");
+        for(list of lists){
+            ul.removeChild(list);
+        }
+    </script>
+</body>
+</html>
